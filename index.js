@@ -128,7 +128,7 @@ let timer = false
 let interval = 0
 
 function clock() {
-    if(timer = false){
+    if(timer === false){
         timer = true
         interval = window.setInterval(stopWatch, 1000)
     }
@@ -189,6 +189,8 @@ function reset() {
     seconds = 0;
     minutes = 0;
     timer = false
-    interval = 0
     window.clearInterval(interval)
+    interval = 0
+    secTime.textContent = "00"
+    minTime.textContent = "00"
 }
