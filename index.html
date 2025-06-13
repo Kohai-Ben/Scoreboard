@@ -16,10 +16,29 @@
                 <button id="new-drop-home" onclick="dropHome()">DROP</button>
                 <button id="new-penalty-home" onclick="penaltyHome()">PENALTY</button>
                 <div class="summary" id="summary-home">
-                    <span id="total-try-home">Tries: 0</span><br/>
-                    <span id="total-conv-home">Conversions: 0</span><br/>
-                    <span id="total-drop-home">Drop goals: 0</span><br/>
-                    <span id="total-penalty-home">Penalties: 0</span>
+                    <table>
+                        <thead>
+                            <th colspan="2" id="stats-home">STATS</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Tries: </th>
+                                <td id="total-try-home">0</td>
+                            </tr>
+                            <tr>
+                                <th>Conversions: </th>
+                                <td id="total-conv-home">0</td>
+                            </tr>
+                            <tr>
+                                <th>Drop goals: </th>
+                                <td id="total-drop-home">0</td>
+                            </tr>
+                            <tr>
+                                <th>Penalties: </th>
+                                <td id="total-penalty-home">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
             <div class="center">
@@ -37,10 +56,29 @@
                 <button id="new-drop-guest" onclick="dropGuest()">DROP</button>
                 <button id="new-penalty-guest" onclick="penaltyGuest()">PENALTY</button>
                 <div class="summary" id="summary-guest">
-                    <span id="total-try-guest">0 :Tries</span><br/>
-                    <span id="total-conv-guest">0 :Conversions</span><br/>
-                    <span id="total-drop-guest">0 :Drop goals</span><br/>
-                    <span id="total-penalty-guest">0 :Penalties</span>
+                    <table>
+                        <thead>
+                            <th colspan="2" id="stats-guest">STATS</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Tries: </th>
+                                <td id="total-try-guest">0</td>
+                            </tr>
+                            <tr>
+                                <th>Conversions: </th>
+                                <td id="total-conv-guest">0</td>
+                            </tr>
+                            <tr>
+                                <th>Drop goals: </th>
+                                <td id="total-drop-guest">0</td>
+                            </tr>
+                            <tr>
+                                <th>Penalties: </th>
+                                <td id="total-penalty-guest">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

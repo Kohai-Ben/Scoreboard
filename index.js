@@ -17,7 +17,7 @@ function tryHome() {
     else
         scoreHome.textContent = countHome
     countTryHome += 1
-    totalTryHome.textContent = "Tries: " + countTryHome
+    totalTryHome.textContent = countTryHome
 }
 
 let totalTryGuest = document.getElementById("total-try-guest")
@@ -30,7 +30,7 @@ function tryGuest() {
     else
         scoreGuest.textContent = countGuest
     countTryGuest += 1
-    totalTryGuest.textContent = countTryGuest + " :Tries"
+    totalTryGuest.textContent = countTryGuest
 }
 
 //CONVERSIONS Section
@@ -45,7 +45,7 @@ function convHome() {
     else
         scoreHome.textContent = countHome
     countConvHome += 1
-    totalConvHome.textContent = "Conversions: " + countConvHome
+    totalConvHome.textContent = countConvHome
 }
 
 let totalConvGuest = document.getElementById("total-conv-guest")
@@ -58,7 +58,7 @@ function convGuest() {
     else
         scoreGuest.textContent = countGuest
     countConvGuest += 1
-    totalConvGuest.textContent = countConvGuest + " :Conversions"
+    totalConvGuest.textContent = countConvGuest
 }
 
 //DROPS Section
@@ -73,7 +73,7 @@ function dropHome() {
     else
         scoreHome.textContent = countHome
     countDropHome += 1
-    totalDropHome.textContent = "Drop goals: " + countDropHome
+    totalDropHome.textContent = countDropHome
 }
 
 let totalDropGuest = document.getElementById("total-drop-guest")
@@ -86,7 +86,7 @@ function dropGuest() {
     else
         scoreGuest.textContent = countGuest
     countDropGuest += 1
-    totalDropGuest.textContent = countDropGuest + " :Drop goals"
+    totalDropGuest.textContent = countDropGuest
 }
 
 //PENALTIES Section
@@ -101,7 +101,7 @@ function penaltyHome() {
     else
         scoreHome.textContent = countHome
     countPenaltyHome += 1
-    totalPenaltyHome.textContent = "Penalties: " + countPenaltyHome
+    totalPenaltyHome.textContent = countPenaltyHome
 }
 
 let totalPenaltyGuest = document.getElementById("total-penalty-guest")
@@ -114,7 +114,7 @@ function penaltyGuest() {
     else
         scoreGuest.textContent = countGuest
     countPenaltyGuest += 1
-    totalPenaltyGuest.textContent = countPenaltyGuest + " :Penalties"
+    totalPenaltyGuest.textContent = countPenaltyGuest
 }
 
 //TIMER Section
@@ -178,14 +178,14 @@ function reset() {
     countPenaltyGuest = 0
     scoreHome.textContent = "00"
     scoreGuest.textContent = "00"
-    totalTryHome.textContent = "Tries: 0"
-    totalTryGuest.textContent = "0 :Tries"
-    totalConvHome.textContent = "Conversions: 0"
-    totalConvGuest.textContent = "0 :Conversions"
-    totalDropHome.textContent = "Drop goals: 0"
-    totalDropGuest.textContent = "0 :Drop goals"
-    totalPenaltyHome.textContent = "Penalties: 0"
-    totalPenaltyGuest.textContent = "0 :Penalties"
+    totalTryHome.textContent = "0"
+    totalTryGuest.textContent = "0"
+    totalConvHome.textContent = "0"
+    totalConvGuest.textContent = "0"
+    totalDropHome.textContent = "0"
+    totalDropGuest.textContent = "0"
+    totalPenaltyHome.textContent = "0"
+    totalPenaltyGuest.textContent = "0"
     seconds = 0;
     minutes = 0;
     timer = false
